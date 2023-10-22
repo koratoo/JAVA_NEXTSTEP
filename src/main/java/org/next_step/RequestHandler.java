@@ -6,6 +6,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
 
+//HTTP 웹 서버 구현
 public class RequestHandler extends Thread{
 
     private Socket connection;
